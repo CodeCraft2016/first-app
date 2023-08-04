@@ -1,0 +1,13 @@
+{% extends 'base.html.twig'%}
+{% block body %}
+<img src="{{asset('images/flag.jpg')}}" alt="contry flag" width="400" height="200" class=" h-45 mt-12 rounded shadow-md"/>
+
+
+<h1 class="text-3xl sm:text-5xl font-semibold mt-5 " >Hello form Casablanca ! </h1>
+
+
+<p >It's currenlty  <span class="text-lg text-green-800">{{ 'now'|date('h:i A')}} </span></p>
+
+
+
+{% endblock %}
